@@ -1,0 +1,28 @@
+form{
+    max-width: 400px;
+    margin: 20vw auto;
+}
+  
+  input{
+    font-size: 2em;
+    font-weight: 300;
+    font-family: Roboto;
+  }
+    
+  .required{
+    font-style: normal;
+      content: " ";
+  }
+    
+  label{
+    font-size: 2em;
+    padding: 0;
+    margin-bottom: 0.5em;
+  }
+    
+  
+body{
+    background: white;
+    font-family: Roboto;
+}
+  

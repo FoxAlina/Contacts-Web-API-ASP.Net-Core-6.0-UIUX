@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="popup__container hidden"  id="popup">
+        <div class="popup">
+            <h3 style="margin-bottom: 10px;">Edit contact:</h3>
+                <input type="text" id="updatename" placeholder="Name">
+                <input type="tel" id="updatephone" placeholder="Phone">
+                <input type="text" id="updatejobtitle" placeholder="Job Title">
+                <input type="date" id="updatebirthdate" placeholder="Birth Date">
+                <button id="btnUpdate">Save</button>
+                <button id="btnDelete" class="btn-delete">Delete</button>
+                <button id="btnClosePopUp" class="btn-closepopup">Close</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="site__header"><h1>Contacts</h1></div>
+        <div class="body__container">
+            <div class="contacts__sidebar__container">
+                <div class="contacts__sidebar">
+                    <h3 style="margin-bottom: 10px;">Add contact:</h3>
+                    <input type="text" id="addname" placeholder="Name">
+                    <input type="tel" id="addphone" placeholder="Phone">
+                    <input type="text" id="addjobtitle" placeholder="Job Title">
+                    <input type="date" id="addbirthdate" placeholder="Birth Date">
+                    <button id="btnSave">Save</button>
+                    
+                </div>
+            </div>
+            <div class="contacts__container" id="contacts__container">
+                
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
